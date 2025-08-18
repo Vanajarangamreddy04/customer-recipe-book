@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Customer Recipe Book</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍲 Customer Recipe Book</h1>
+
+    <!-- Add Recipe Form -->
+    <form id="recipeForm">
+      <input type="text" id="recipeName" placeholder="Recipe Name" required>
+      <textarea id="recipeDetails" placeholder="Recipe Details" required></textarea>
+      <button type="submit">➕ Add Recipe</button>
+    </form>
+
+    <!-- Search Bar -->
+    <input type="text" id="searchBox" placeholder="🔍 Search recipes...">
+
+    <!-- Recipes List -->
+    <div id="recipeList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
